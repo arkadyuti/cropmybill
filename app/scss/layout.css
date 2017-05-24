@@ -5,8 +5,9 @@
 .background_CC{background:#CCC;}
 
 
-.background_primary {}
+.background_primary {background-color: #1f4987;}
 .background_supporting {}
+.background_test {background-color: red}
 
 /***************************************************
 					  Borders
