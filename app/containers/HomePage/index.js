@@ -9,11 +9,16 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import makeSelectHomePage from './selectors';
 import Header from 'components/common/Header'
+import CarouselImage from 'components/CarouselImage'
+import CatagoryOne from 'components/CatagoryOne'
+
 export class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
       <div>
         <Header {...this.props}/>
+        <CarouselImage {...this.props}/>
+        <CatagoryOne {...this.props} />
       </div>
     );
   }

@@ -6,7 +6,7 @@
 
 import React from 'react';
 import ButtonAnchor from 'components/common/ButtonAnchor'
-import {HEADER_CATAGORIES} from 'components/common/constants'
+import { HEADER_CATAGORIES } from 'components/common/constants'
 
 class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
