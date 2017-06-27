@@ -11,6 +11,7 @@ import makeSelectHomePage from './selectors';
 import Header from 'components/common/Header'
 import CarouselImage from 'components/CarouselImage'
 import CatagoryOne from 'components/CatagoryOne'
+import CatagoryTwo from 'components/CatagoryTwo'
 
 export class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
@@ -18,6 +19,8 @@ export class HomePage extends React.Component { // eslint-disable-line react/pre
       <div>
         <Header {...this.props}/>
         <CarouselImage {...this.props}/>
+        <CatagoryOne {...this.props} />
+        <CatagoryTwo {...this.props} />
         <CatagoryOne {...this.props} />
       </div>
     );
