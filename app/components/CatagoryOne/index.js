@@ -15,10 +15,10 @@ class CatagoryOne extends React.Component { // eslint-disable-line react/prefer-
     return (
       <section className="container-fluid">
         <div className="row">
-          <div className="col-xs-12 col-sm-7 col-md-7 col-xs-offset-0 col-sm-offset-1 col-md-offset-1">
+          <div className="col-xs-12 col-sm-7 col-md-7">
             <h1 className="catagoryOneHead catagoryHead">OUR CLOTHING STORES</h1>
           </div>
-          <div className="col-xs-12 col-sm-10 col-md-10 col-xs-offset-0 col-sm-offset-1 col-md-offset-1">
+          <div className="col-xs-12 col-sm-12 col-md-12">
             <div className="row">
               {array.map((element, index)=><GridTypeOne key={index} />)}
             </div>

@@ -12,16 +12,18 @@ import Header from 'components/common/Header'
 import CarouselImage from 'components/CarouselImage'
 import CatagoryOne from 'components/CatagoryOne'
 import CatagoryTwo from 'components/CatagoryTwo'
+import Footer from 'components/common/Footer'
 
 export class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
       <div>
-        <Header {...this.props}/>
+        {/* <Header {...this.props}/> */}
         <CarouselImage {...this.props}/>
         <CatagoryOne {...this.props} />
         <CatagoryTwo {...this.props} />
         <CatagoryOne {...this.props} />
+        <Footer {...this.props} />
       </div>
     );
   }

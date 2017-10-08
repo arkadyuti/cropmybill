@@ -12,7 +12,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
   render() {
 	return (
 		<div className="container-fluid">
-			<div className="row headerWrapper background_primary">
+			<div className="row headerWrapper main-container background_primary">
 				<div className="col-xs-6 col-sm-4 col-md-4">
 					<img src="img/253.png" alt=""/>
 				</div>
