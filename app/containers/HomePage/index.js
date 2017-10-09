@@ -18,7 +18,7 @@ export class HomePage extends React.Component { // eslint-disable-line react/pre
   render() {
     return (
       <div>
-        {/* <Header {...this.props}/> */}
+        <Header {...this.props}/>
         <CarouselImage {...this.props}/>
         <CatagoryOne {...this.props} />
         <CatagoryTwo {...this.props} />

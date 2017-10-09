@@ -9,14 +9,14 @@ import React from 'react';
 
 
 class ButtonAnchor extends React.Component { // eslint-disable-line react/prefer-stateless-function
-  render() {
-    const {anchorClass, buttonText} = this.props;
-	return (
-            <a className={`ButtonAnchor ${anchorClass}`} href="/refer">
-                <div className="referbox">
-                    {buttonText}
-                </div>
-            </a>
+	render() {
+		const { anchorClass, buttonText } = this.props;
+		return (
+			<a className={`ButtonAnchor ${anchorClass}`} href="/refer">
+				<div className="referbox">
+					{buttonText}
+				</div>
+			</a>
 		);
 	}
 }

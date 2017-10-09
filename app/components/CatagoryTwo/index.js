@@ -13,7 +13,7 @@ class CatagoryTwo extends React.Component { // eslint-disable-line react/prefer-
     let array = [1,2,3,4,5,6,7,8]
     return (
       <section className="container-fluid">
-        <div className="row">
+        <div className="row main-container">
           <div className="col-xs-12 col-sm-7 col-md-7">
             <h1 className="catagoryOneHead catagoryHead">OUR FAVOURITE STORES</h1>
           </div>
