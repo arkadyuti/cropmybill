@@ -12,7 +12,7 @@ import Swiper from 'react-id-swiper';
 class CarouselImage extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <div className="container-fluid">
+      <section className="container-fluid">
         <div className="row main-container">
           <div className="col-xs-12 col-sm-7 col-md-7 col-xs-offset-0 col-sm-offset-1 col-md-offset-1 carousel-container">
             <div className="">
@@ -33,7 +33,7 @@ class CarouselImage extends React.Component { // eslint-disable-line react/prefe
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

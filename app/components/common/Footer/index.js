@@ -27,7 +27,7 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
   }
   render() {
     return (
-      <div className="container-fluid">
+      <footer className="container-fluid">
         <div className="row main-container footer-container">
           <div className="col-xs-12 col-sm-12 col-md-12 footer-first-container">
             <div className="row">
@@ -65,7 +65,7 @@ class Footer extends React.Component { // eslint-disable-line react/prefer-state
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     );
   }
 }

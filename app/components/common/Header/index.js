@@ -24,10 +24,10 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
 	}
 	render() {
 		return (
-			<div className="container-fluid">
+			<header className="container-fluid">
 				<div className="row headerWrapper main-container background_primary">
 					<div className="col-xs-4 col-sm-4 col-md-4">
-						<img className="header-logo" src="img/header-logo.png" alt="CropmyBill Logo" />
+						<a href="/"><img className="header-logo" src="img/header-logo.png" alt="CropmyBill Logo" /></a>
 					</div>
 					<div className="col-xs-8 col-sm-8 col-md-8">
 						<span className="hamburger-icon" onClick={this.handleHamburgerMenu}>mobile menu</span>
@@ -35,7 +35,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
 						<div className={`header-mobile-wrapper ${this.state.hamburger ? "mobile-disp-block" : "mobile-disp-none"}`}>
 							<ButtonAnchor anchorClass="ButtonAnchorRefer floatRight" buttonText="REFER &amp; EARN" />
 							<a className="links uppercase mobile-disp-none" href="/coupons">COUPONS</a>
-							<a className="links uppercase mobile-disp-none" href="/coupons">Deals</a>
+							<a className="links uppercase mobile-disp-none" href="/deals">Deals</a>
 							<button className="dropbtn desktop-disp-none close-hamburger" onClick={this.handleCloseOverlay}>close hamburger</button>
 							<div className="links dropdown">
 								<button className="dropbtn uppercase">Catagories</button>
@@ -44,7 +44,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
 								</ul>
 							</div>
 						</div>
-						<a className="links uppercase" href="/coupons">All Store</a>
+						<a className="links uppercase" href="/stores">All Store</a>
 					</div>
 					{/* <div className="col-xs-6 col-sm-4 col-md-4">
 					<img src="img/header-logo.png" alt="CropmyBill Logo"/>
@@ -64,7 +64,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
 					<a className="links uppercase" href="/coupons">All Store</a>
 				</div> */}
 				</div>
-			</div>
+			</header>
 		);
 	}
 }
