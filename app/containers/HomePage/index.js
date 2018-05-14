@@ -10,12 +10,14 @@
  */
 
 import React from 'react';
+import GlobalHeader from 'components/common/GlobalHeader';
+
 
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
       <div>
-        HomePage
+        <GlobalHeader />
       </div>
     );
   }

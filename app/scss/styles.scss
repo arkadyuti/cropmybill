@@ -1,0 +1,50 @@
+/* Common - START */
+.main-container {
+  width: 1400px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .mobile-disp-none {
+    display: none;
+  }
+  .mobile-disp-block {
+    display: block;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .desktop-disp-none {
+    display: none;
+  }
+  .desktop-disp-block {
+    display: block;
+  }
+}
+/* Common - END */
+
+/* Global Header - START */
+$headerHeight: 100px;
+header.global-header {
+  .header-logo-anchor {
+    height: $headerHeight;
+    display: block;
+    img {
+      height: inherit;
+    }
+  }
+  .header-links-wrapper {
+    // & > li {
+    & > li {
+      display: inline-block;
+    }
+  }
+}
+/* Global Header - END */
